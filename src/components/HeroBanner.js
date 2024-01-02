@@ -8,7 +8,7 @@ import cv from '../assets/my_cv.pdf'
 
 const HeroBanner = () => {
     
-    const titles = ['backend with LARAVEL...', 'frontend with REACT...'];
+    const titles = ['backend with LARAVEL..', 'frontend with REACT...'];
     const [index, setIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -50,7 +50,7 @@ const HeroBanner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>welcome to my spacE!</span>
                     <h1>i enjoy web-dev &</h1>
-                    <h2>i'm loading {text}</h2>
+                    <h3>loading {text}</h3>
 
                     <p style={{color: '#fff'}}>
                         hello, I started studying web-dev at 2nd of 2023. i studied fontend & backend, i also did alot of projects by myself to study the whole fullstack processes. Although I prefer laravel for backend more than frontend, I self-studied react-js as javascript framework. Now i feel like I'm ready to start my junior web-dev and I deeply need the real-world experiences, skillful seniors to guide me. <br/> So if you're searching someone like me, <br /> 
