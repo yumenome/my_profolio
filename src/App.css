@@ -466,8 +466,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 10px 0%;
-  /* background: #382951; */
-  /* background: linear-gradient(90deg, #382951, #121212); */
+  /* background: #6200ff21; */
 }
 
 .footer p {
