@@ -9,9 +9,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <MainNavbar />
-      <HeroBanner id='intro'/>
+      <HeroBanner />
       <Skills />
       <Projects />
       <Footer />
