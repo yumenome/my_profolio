@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
-import laravel_project1 from '../assets/projects/bonk.png'
+import laravel_project1 from '../assets/projects/idea.png'
 import laravel_project2 from '../assets/projects/ig be.png'
 import laravel_project3 from '../assets/projects/lec be.png'
 
@@ -14,21 +14,21 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
 
     const larvel_projects = [
-        
+
+        {
+            title: "IDEAS",
+            description: "SSR project",
+            imgUrl: laravel_project1,
+        },
         {
           title: "INSTRAGRAM CLONE",
-          description: "reset api project",
+          description: "RESTful api project",
           imgUrl: laravel_project2,
         },
         {
           title: "let_meCheck",
-          description: "filament admin panel project",
+          description: "filament project",
           imgUrl: laravel_project3,
-        },
-        {
-            title: "BONK BLOG",
-            description: "inclass upgraded project",
-            imgUrl: laravel_project1,
         }
       ];
       
@@ -45,7 +45,7 @@ const Projects = () => {
           },
           {
             title: "let_meCheck",
-            description: "phone reviews project",
+            description: "CSR project",
             imgUrl: react_project3,
           }
         ];
